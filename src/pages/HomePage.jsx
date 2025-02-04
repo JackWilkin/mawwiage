@@ -1,15 +1,12 @@
-import Menu from '../Menu';
-import '../styles/App.css';
+import Menu from '../components/Menu';
 
 export default function HomePage() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
         <p>
           Homepage for Rose and May's wedding.
         </p>
         <Menu />
-      </header>
     </div>
   );
 }

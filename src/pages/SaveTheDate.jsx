@@ -1,7 +1,17 @@
 import styled from 'styled-components';
 import arch from '../images/rose_may_flower_arch.jpg';
 import { lavendar, mint } from '../styles/colors';
-import '../styles/App.css';
+
+export default function SaveTheDate() {
+  return (
+    <Background>
+      <Image src={arch} alt="rose_may_flower_arch.jpg" />
+      <Text>
+        Save the date! September 27th 2025, Perth, Ontario.
+      </Text>
+    </Background>
+  );
+}
 
 const Background = styled.div`
   background-color: ${mint};
@@ -21,14 +31,3 @@ const Text = styled.p`
   font-family: cursive;
   font-weight: bold
 `;
-
-export default function SaveTheDate() {
-  return (
-    <Background>
-      <Image src={arch} alt="rose_may_flower_arch.jpg" />
-      <Text>
-        Save the date! September 27th 2025, Perth, Ontario.
-      </Text>
-    </Background>
-  );
-}
