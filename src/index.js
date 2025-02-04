@@ -11,6 +11,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route path="/home" element={<HomePage />} />
       <Route path="/save-the-date" element={<SaveTheDate />} />
       <Route path="/gallery" element={<Gallery />} />
     </Routes>
