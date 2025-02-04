@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { lavendar } from '../styles/colors';
+import { lavendar, sage, cream } from '../styles/colors';
 
 export default function Menu() {
   return (
     <Navbar>
-      {/* <NavbarTitle>Menu</NavbarTitle> */}
+      <NavbarLink to="/home">
+        Menu
+      </NavbarLink>
       <NavbarLink to="/save-the-date">
         Save the date
       </NavbarLink>
@@ -21,13 +23,7 @@ const Navbar = styled.div`
   align-items: center;
   display: flex;
   width: 100%;
-`;
-
-const NavbarTitle = styled.span`
-  color: ${lavendar};
-  font-size: 1.5rem;
-  flex-grow: 1;
-  padding-left: 1rem;
+  height: 60px;
 `;
 
 const NavbarLink = styled(Link)`
@@ -38,6 +34,7 @@ const NavbarLink = styled(Link)`
   text-decoration: none;
 
   &:hover {
-    background-color: white;
+    background-color: ${sage};
+    color: ${cream};
   }
 `;
