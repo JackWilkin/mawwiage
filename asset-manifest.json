@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/mawwiage/static/css/main.62af5159.css",
-    "main.js": "/mawwiage/static/js/main.613ddb6f.js",
-    "static/media/logo.svg": "/mawwiage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/mawwiage/static/css/main.8323aab9.css",
+    "main.js": "/mawwiage/static/js/main.36952538.js",
+    "static/media/rose_may_flower_arch.jpg": "/mawwiage/static/media/rose_may_flower_arch.f26b6abe619050993261.jpg",
+    "static/media/soup-sandos.jpg": "/mawwiage/static/media/soup-sandos.330853236ad4e6dde0c1.jpg",
+    "static/media/cape-reinga.jpg": "/mawwiage/static/media/cape-reinga.555f3ad3e07dd8264782.jpg",
+    "static/media/wine-cheers.jpg": "/mawwiage/static/media/wine-cheers.9edb0a273a011b8f36d9.jpg",
+    "static/media/corn.jpg": "/mawwiage/static/media/corn.13ffabb1e2be36011d76.jpg",
     "index.html": "/mawwiage/index.html",
-    "main.62af5159.css.map": "/mawwiage/static/css/main.62af5159.css.map",
-    "main.613ddb6f.js.map": "/mawwiage/static/js/main.613ddb6f.js.map"
+    "main.8323aab9.css.map": "/mawwiage/static/css/main.8323aab9.css.map",
+    "main.36952538.js.map": "/mawwiage/static/js/main.36952538.js.map"
   },
   "entrypoints": [
-    "static/css/main.62af5159.css",
-    "static/js/main.613ddb6f.js"
+    "static/css/main.8323aab9.css",
+    "static/js/main.36952538.js"
   ]
 }
