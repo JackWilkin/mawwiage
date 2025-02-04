@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router";
 import styled from 'styled-components';
-import './styles/index.css';
 import { lavendar, mint } from './styles/colors';
 import HomePage from './pages/HomePage';
 import SaveTheDate from './pages/SaveTheDate';
