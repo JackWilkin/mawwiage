@@ -1,26 +1,22 @@
 import styled from 'styled-components';
-import cape from '../images/cape-reinga.jpg';
-import corn from '../images/corn.jpg';
-import soup from '../images/soup-sandos.jpg';
-import wine from '../images/wine-cheers.jpg';
+import galleryImages from '../images';
 import { lavendar, mint } from '../styles/colors';
 
 export default function Gallery() {
+  const imageContainers = galleryImages.map(createImageContainer);
+
   return (
     <Background>
-      <ImageContainer>
-        <Image src={corn} alt="rose_may_flower_arch.jpg" />
-      </ImageContainer>
-      <ImageContainer>
-        <Image src={soup} alt="rose_may_flower_arch.jpg" />
-      </ImageContainer>
-      <ImageContainer>
-        <Image src={cape} alt="rose_may_flower_arch.jpg" />
-      </ImageContainer>
-      <ImageContainer>
-        <Image src={wine} alt="rose_may_flower_arch.jpg" />
-      </ImageContainer>
+      {imageContainers}
     </Background>
+  );
+}
+
+function createImageContainer(image) {
+  return (
+    <ImageContainer>
+      <Image src={image}/>
+    </ImageContainer>
   );
 }
 
