@@ -12,11 +12,11 @@ export default function HomePage() {
 }
 
 const Background = styled.div`
+  align-items: center;
   color: ${sage};
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   flex-grow: 1;
   height: 100%;
+  justify-content: center;
 `;

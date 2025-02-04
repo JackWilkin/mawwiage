@@ -14,11 +14,12 @@ export default function SaveTheDate() {
 }
 
 const Background = styled.div`
+  align-items: center;
   background-color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
   padding: 1rem;
 `;
 
