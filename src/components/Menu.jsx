@@ -7,7 +7,7 @@ export default function Menu() {
   return (
     <Navbar>
       <NavbarLink to="/home">
-        Menu
+        Home
       </NavbarLink>
       <NavbarLink to="/save-the-date">
         Save the date
@@ -22,16 +22,19 @@ export default function Menu() {
 const Navbar = styled.div`
   align-items: center;
   display: flex;
-  width: 100%;
   height: 60px;
+  width: 100%;
 `;
 
 const NavbarLink = styled(Link)`
-  border-left: 1px solid ${lavendar};
+  border-right: 1px solid ${lavendar};
+  border-bottom: 1px solid ${lavendar};
   color: ${lavendar};
-  width: fit-content;
+  flex-grow: 1;
+  text-align: center;
   padding: 1rem;
   text-decoration: none;
+  width: fit-content;
 
   &:hover {
     background-color: ${sage};

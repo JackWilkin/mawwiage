@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import arch from '../images/rose_may_flower_arch.jpg';
-import { lavendar, mint } from '../styles/colors';
+import { lavendar } from '../styles/colors';
 
 export default function SaveTheDate() {
   return (
@@ -14,12 +14,12 @@ export default function SaveTheDate() {
 }
 
 const Background = styled.div`
-  background-color: ${mint};
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100%;
+  padding: 1rem;
 `;
 
 const Image = styled.img`
