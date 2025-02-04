@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+//import logo from '../images/logo.svg';
 // import arch from './rose_may_flower_arch.jpg';
 // <img src={arch} alt="logo" />
-import './App.css';
+import Menu from '../Menu';
+import '../styles/App.css';
 
-function App() {
+export default function HomePage() {
   return (
     <div className="App">
       <header className="App-header">
@@ -11,6 +12,7 @@ function App() {
         <p>
           Homepage for Rose and May's wedding.
         </p>
+        <Menu />
         {/* <a
           className="App-link"
           href="https://reactjs.org"
@@ -23,5 +25,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
