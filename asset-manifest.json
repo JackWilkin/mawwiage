@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/mawwiage/static/css/main.0e98b228.css",
-    "main.js": "/mawwiage/static/js/main.62f1e56b.js",
-    "static/media/graduation.JPEG": "/mawwiage/static/media/graduation.3b650d6f13260c57125a.JPEG",
-    "static/media/rose_may_flower_arch.jpg": "/mawwiage/static/media/rose_may_flower_arch.f26b6abe619050993261.jpg",
-    "static/media/soup-sandos.jpg": "/mawwiage/static/media/soup-sandos.330853236ad4e6dde0c1.jpg",
-    "static/media/aquarium.JPG": "/mawwiage/static/media/aquarium.8760744cc56f34123d4a.JPG",
-    "static/media/cuddle.JPEG": "/mawwiage/static/media/cuddle.24fa8a00daef635debbe.JPEG",
-    "static/media/engaged.JPEG": "/mawwiage/static/media/engaged.0903f0480b608225d060.JPEG",
-    "static/media/cape-reinga.jpg": "/mawwiage/static/media/cape-reinga.555f3ad3e07dd8264782.jpg",
-    "static/media/wine-cheers.jpg": "/mawwiage/static/media/wine-cheers.9edb0a273a011b8f36d9.jpg",
-    "static/media/corn.jpg": "/mawwiage/static/media/corn.13ffabb1e2be36011d76.jpg",
-    "static/media/may_ring.JPEG": "/mawwiage/static/media/may_ring.98dcb751612abfb94ed8.JPEG",
-    "index.html": "/mawwiage/index.html",
-    "main.0e98b228.css.map": "/mawwiage/static/css/main.0e98b228.css.map",
-    "main.62f1e56b.js.map": "/mawwiage/static/js/main.62f1e56b.js.map"
+    "main.css": "/static/css/main.0e98b228.css",
+    "main.js": "/static/js/main.56c89ffc.js",
+    "static/media/graduation.JPEG": "/static/media/graduation.3b650d6f13260c57125a.JPEG",
+    "static/media/rose_may_flower_arch.jpg": "/static/media/rose_may_flower_arch.f26b6abe619050993261.jpg",
+    "static/media/soup-sandos.jpg": "/static/media/soup-sandos.330853236ad4e6dde0c1.jpg",
+    "static/media/aquarium.JPG": "/static/media/aquarium.8760744cc56f34123d4a.JPG",
+    "static/media/cuddle.JPEG": "/static/media/cuddle.24fa8a00daef635debbe.JPEG",
+    "static/media/engaged.JPEG": "/static/media/engaged.0903f0480b608225d060.JPEG",
+    "static/media/cape-reinga.jpg": "/static/media/cape-reinga.555f3ad3e07dd8264782.jpg",
+    "static/media/wine-cheers.jpg": "/static/media/wine-cheers.9edb0a273a011b8f36d9.jpg",
+    "static/media/corn.jpg": "/static/media/corn.13ffabb1e2be36011d76.jpg",
+    "static/media/may_ring.JPEG": "/static/media/may_ring.98dcb751612abfb94ed8.JPEG",
+    "index.html": "/index.html",
+    "main.0e98b228.css.map": "/static/css/main.0e98b228.css.map",
+    "main.56c89ffc.js.map": "/static/js/main.56c89ffc.js.map"
   },
   "entrypoints": [
     "static/css/main.0e98b228.css",
-    "static/js/main.62f1e56b.js"
+    "static/js/main.56c89ffc.js"
   ]
 }
