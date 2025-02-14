@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e98b228.css",
-    "main.js": "/static/js/main.56c89ffc.js",
+    "main.css": "/static/css/main.8c9e894f.css",
+    "main.js": "/static/js/main.8b300880.js",
     "static/media/graduation.JPEG": "/static/media/graduation.3b650d6f13260c57125a.JPEG",
+    "static/media/rose_may_flower_arch_square.jpg": "/static/media/rose_may_flower_arch_square.443484e0f9909ba37b15.jpg",
     "static/media/rose_may_flower_arch.jpg": "/static/media/rose_may_flower_arch.f26b6abe619050993261.jpg",
     "static/media/soup-sandos.jpg": "/static/media/soup-sandos.330853236ad4e6dde0c1.jpg",
     "static/media/aquarium.JPG": "/static/media/aquarium.8760744cc56f34123d4a.JPG",
@@ -13,11 +14,11 @@
     "static/media/corn.jpg": "/static/media/corn.13ffabb1e2be36011d76.jpg",
     "static/media/may_ring.JPEG": "/static/media/may_ring.98dcb751612abfb94ed8.JPEG",
     "index.html": "/index.html",
-    "main.0e98b228.css.map": "/static/css/main.0e98b228.css.map",
-    "main.56c89ffc.js.map": "/static/js/main.56c89ffc.js.map"
+    "main.8c9e894f.css.map": "/static/css/main.8c9e894f.css.map",
+    "main.8b300880.js.map": "/static/js/main.8b300880.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e98b228.css",
-    "static/js/main.56c89ffc.js"
+    "static/css/main.8c9e894f.css",
+    "static/js/main.8b300880.js"
   ]
 }
