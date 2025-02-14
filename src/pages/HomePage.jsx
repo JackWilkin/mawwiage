@@ -1,22 +1,19 @@
 import styled from 'styled-components';
 import { sage } from '../styles/colors';
+import PageBase from './PageBase';
 
 export default function HomePage() {
   return (
-    <Background>
-        <p>
+    <PageBase>
+        <Text>
           Homepage for Rose and May's wedding.
-        </p>
-    </Background>
+        </Text>
+    </PageBase>
   );
 }
 
-const Background = styled.div`
-  align-items: center;
+const Text = styled.p`
   color: ${sage};
-  display: flex;
-  flex-wrap: wrap;
   flex-grow: 1;
-  height: 100%;
-  justify-content: center;
+  text-align: center;
 `;

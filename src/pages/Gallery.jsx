@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 import galleryImages from '../images';
 import { lavendar, mint } from '../styles/colors';
+import PageBase from './PageBase';
 
 export default function Gallery() {
   const imageContainers = galleryImages.map(createImageContainer);
 
   return (
-    <Background>
+    <PageBase>
       {imageContainers}
-    </Background>
+    </PageBase>
   );
 }
 
@@ -19,13 +20,6 @@ function createImageContainer(image) {
     </ImageContainer>
   );
 }
-
-const Background = styled.div`
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-`;
 
 const ImageContainer = styled.div`
   align-items: center;

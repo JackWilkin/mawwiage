@@ -37,13 +37,13 @@ const Image = styled.img`
 
 
 const DesktopImage = styled(Image)`
-  @media screen and (max-width:755px) {
+  @media screen and (max-width:800px) {
     display:none;
   }
 `;
 
 const MobileImage = styled(Image)`
-  @media screen and (min-width:756px) {
+  @media screen and (min-width:801px) {
     display:none;
   }
 `;
