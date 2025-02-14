@@ -23,6 +23,7 @@ export default function Menu() {
 const Navbar = styled.div`
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   height: 60px;
   width: 100%;
 `;
@@ -32,8 +33,8 @@ const NavbarLink = styled(Link)`
   border-bottom: 1px solid ${lavendar};
   color: ${lavendar};
   flex-grow: 1;
-  text-align: center;
   padding: 1rem;
+  text-align: center;
   text-decoration: none;
   width: fit-content;
 
