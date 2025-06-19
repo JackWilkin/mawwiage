@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { lavendar, sage, cream } from '../styles/colors';
+import { cream, coffee, bistre } from '../styles/colors';
 
 export default function Menu() {
   return (
@@ -32,9 +32,9 @@ const Navbar = styled.div`
 `;
 
 const NavbarLink = styled(Link)`
-  border-right: 1px solid ${lavendar};
-  border-bottom: 1px solid ${lavendar};
-  color: ${lavendar};
+  border-right: 1px solid ${bistre};
+  border-bottom: 1px solid ${bistre};
+  color: ${bistre};
   flex-grow: 1;
   padding: 1rem;
   text-align: center;
@@ -42,7 +42,7 @@ const NavbarLink = styled(Link)`
   width: fit-content;
 
   &:hover {
-    background-color: ${sage};
+    background-color: ${coffee};
     color: ${cream};
   }
 `;

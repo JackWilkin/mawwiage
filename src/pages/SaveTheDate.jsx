@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import arch from '../images/rose_may_flower_arch.jpg';
 import squareArch from '../images/rose_may_flower_arch_square.jpg';
-import { lavendar } from '../styles/colors';
+import { lavendarFloral } from '../styles/colors';
 import ImageCard from '../components/ImageCard'
 
 export default function SaveTheDate() {
@@ -10,7 +10,7 @@ export default function SaveTheDate() {
       <ImageCard 
         desktopImage={arch} 
         mobileImage={squareArch} 
-        textColor={lavendar}
+        textColor={lavendarFloral}
       >
         Save the date! September 27th 2025, Perth, Ontario.
       </ImageCard>

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { sage } from '../styles/colors';
+import { royalPurple } from '../styles/colors';
 import PageBase from './PageBase';
 
 export default function HomePage() {
@@ -12,8 +12,8 @@ export default function HomePage() {
   );
 }
 
-const Text = styled.p`
-  color: ${sage};
+const Text = styled.h3`
+  color: ${royalPurple};
   flex-grow: 1;
   text-align: center;
 `;
