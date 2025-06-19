@@ -15,7 +15,10 @@ export default function Menu() {
       <NavbarLink to="/gallery">
         Gallery
       </NavbarLink>
-      {/* TODO: add RSVP and registry pages */}
+      <NavbarLink to="/rsvp">
+        RSVP
+      </NavbarLink>
+      {/* TODO: add registry pages */}
     </Navbar>
   );
 }

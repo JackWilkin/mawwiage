@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import HomePage from './pages/HomePage';
 import SaveTheDate from './pages/SaveTheDate';
 import Gallery from './pages/Gallery';
+import RSVP from './pages/RSVP';
 import Menu from './components/Menu';
 
 export default function App() {
@@ -11,15 +12,33 @@ export default function App() {
     <Background>
         <BrowserRouter>
             <Menu />
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/home" element={<HomePage />} />
-                <Route path="/mawwiage" element={<HomePage />} />
-                <Route path="/save-the-date" element={<SaveTheDate />} />
-                <Route path="/gallery" element={<Gallery />} />
-            </Routes>
+            {createRoutes()}
         </BrowserRouter>
     </Background>
+  );
+}
+
+var routeMap = {
+  "/home" : <HomePage />,
+  "/save-the-date" : <SaveTheDate />,
+  "/gallery" : <Gallery />,
+  "/rsvp" : <RSVP />
+}
+
+function createRoutes() {
+  var routes = [];
+  for (const [key, value] of Object.entries(routeMap)) {
+    var upperCaseRoute = <Route path={key.toLocaleUpperCase()} element={value} />;
+    var lowerCaseRoute = <Route path={key.toLocaleLowerCase()} element={value} />;
+    routes.push(upperCaseRoute);
+    routes.push(lowerCaseRoute);
+  }
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />;
+      <Route path="/mawwiage" element={<HomePage />} />;
+      {routes}
+    </Routes>
   );
 }
 
