@@ -53,4 +53,9 @@ const NavbarLink = styled(Link)`
     background-color: ${coffee};
     color: ${cream};
   }
+
+  &:focus {
+    background-color: ${coffee};
+    color: ${cream};
+  }
 `;
