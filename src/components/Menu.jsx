@@ -18,6 +18,9 @@ export default function Menu() {
       <NavbarLink to="/rsvp">
         RSVP
       </NavbarLink>
+      <NavbarLink to="/info">
+        Info
+      </NavbarLink>
       {/* TODO: add registry pages */}
     </Navbar>
   );
@@ -26,20 +29,24 @@ export default function Menu() {
 const Navbar = styled.div`
   align-items: center;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   height: 60px;
   width: 100%;
 `;
 
 const NavbarLink = styled(Link)`
+  align-items: center;
   border-right: 1px solid ${bistre};
   border-bottom: 1px solid ${bistre};
   color: ${bistre};
+  display: flex;
   flex-grow: 1;
-  padding: 1rem;
+  justify-content: center;
+  padding: 0.5rem;
   text-align: center;
   text-decoration: none;
   width: fit-content;
+  height: inherit;
 
   &:hover {
     background-color: ${coffee};

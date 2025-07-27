@@ -1,11 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router";
 import styled from 'styled-components';
+import Menu from './components/Menu';
 import HomePage from './pages/HomePage';
 import SaveTheDate from './pages/SaveTheDate';
 import Gallery from './pages/Gallery';
 import RSVP from './pages/RSVP';
-import Menu from './components/Menu';
+import Info from './pages/Info';
 
 export default function App() {
   return (
@@ -22,7 +23,8 @@ var routeMap = {
   "/home" : <HomePage />,
   "/save-the-date" : <SaveTheDate />,
   "/gallery" : <Gallery />,
-  "/rsvp" : <RSVP />
+  "/rsvp" : <RSVP />,
+  "/info" : <Info />
 }
 
 function createRoutes() {

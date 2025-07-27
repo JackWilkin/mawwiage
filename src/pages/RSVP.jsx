@@ -16,6 +16,16 @@ const Background = styled.div`
   height: calc(100% - 60px);
   justify-content: center;
   width: 100%;
+
+  @media screen and (max-width: 767px) {
+    iframe[src*="docs"] {
+      width: 100% !important;
+      height: 90vh !important;
+      max-width: 100% !important;
+      border: none !important;
+      display: block;
+    }
+  }
 `;
 
 
