@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { cream, coffee, bistre } from '../styles/colors';
+import { cream, coffee, bistre, darkSpringGreen, seafoam } from '../styles/colors';
 
 export default function Menu() {
   return (
@@ -36,10 +36,10 @@ const Navbar = styled.div`
 
 const NavbarLink = styled(Link)`
   align-items: center;
-  background-color: ${cream};
+  background-color: ${darkSpringGreen};
   border-right: 1px solid ${bistre};
   border-bottom: 1px solid ${bistre};
-  color: ${bistre};
+  color: ${seafoam};
   display: flex;
   flex-grow: 1;
   justify-content: center;
