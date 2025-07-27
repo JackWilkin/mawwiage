@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { periwinkle } from '../styles/colors';
 
 export default function RSVP() {
 
@@ -11,6 +12,7 @@ export default function RSVP() {
 
 const Background = styled.div`
   align-items: center;
+  background-color: ${periwinkle};
   display: flex;
   flex-direction: column;
   height: calc(100% - 60px);

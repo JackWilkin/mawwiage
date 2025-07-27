@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { periwinkle } from '../styles/colors';
 
 export default function PageBase(props) {
     const {children} = props;
@@ -11,6 +12,7 @@ export default function PageBase(props) {
 
 const Background = styled.div`
   align-items: center;
+  background-color: ${periwinkle};
   display: flex;
   flex-wrap: wrap;
   height: calc(100% - 60px);

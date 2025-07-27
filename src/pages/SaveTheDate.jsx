@@ -1,12 +1,12 @@
-import styled from 'styled-components';
 import arch from '../images/rose_may_flower_arch.jpg';
 import squareArch from '../images/rose_may_flower_arch_square.jpg';
 import { lavendarFloral } from '../styles/colors';
-import ImageCard from '../components/ImageCard'
+import ImageCard from '../components/ImageCard';
+import PageBase from './PageBase';
 
 export default function SaveTheDate() {
   return (
-    <Background>
+    <PageBase>
       <ImageCard 
         desktopImage={arch} 
         mobileImage={squareArch} 
@@ -14,15 +14,6 @@ export default function SaveTheDate() {
       >
         Save the date! September 27th 2025, Perth, Ontario.
       </ImageCard>
-    </Background>
+    </PageBase>
   );
 }
-
-const Background = styled.div`
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: calc(100% - 60px);
-  justify-content: center;
-  width: 100%;
-`;

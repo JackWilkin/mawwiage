@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import galleryImages from '../images';
-import { lavendarWeb, mint, darkSpringGreen } from '../styles/colors';
+import { lavendarWeb, darkSpringGreen } from '../styles/colors';
 import PageBase from './PageBase';
 
 export default function Gallery() {
@@ -8,7 +8,9 @@ export default function Gallery() {
 
   return (
     <PageBase>
-      {imageContainers}
+      <Images>
+        {imageContainers}
+      </Images>
     </PageBase>
   );
 }
@@ -20,6 +22,15 @@ function createImageContainer(image) {
     </ImageContainer>
   );
 }
+
+const Images = styled.div`
+  align-items: center;
+  background-color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: inherit;
+`;
 
 const ImageContainer = styled.div`
   align-items: center;

@@ -36,6 +36,7 @@ const Navbar = styled.div`
 
 const NavbarLink = styled(Link)`
   align-items: center;
+  background-color: ${cream};
   border-right: 1px solid ${bistre};
   border-bottom: 1px solid ${bistre};
   color: ${bistre};
