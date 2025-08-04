@@ -9,19 +9,21 @@ export default function Menu() {
       <NavbarLink to="/home">
         Home
       </NavbarLink>
+      <NavbarLink to="/info">
+        Info
+      </NavbarLink>
       <NavbarLink to="/save-the-date">
         Save the date
-      </NavbarLink>
-      <NavbarLink to="/gallery">
-        Gallery
       </NavbarLink>
       <NavbarLink to="/rsvp">
         RSVP
       </NavbarLink>
-      <NavbarLink to="/info">
-        Info
+      <NavbarLink to="/registry">
+        Registry
       </NavbarLink>
-      {/* TODO: add registry pages */}
+      <NavbarLink to="/gallery">
+        Gallery
+      </NavbarLink>
     </Navbar>
   );
 }

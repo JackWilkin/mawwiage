@@ -7,6 +7,7 @@ import SaveTheDate from './pages/SaveTheDate';
 import Gallery from './pages/Gallery';
 import RSVP from './pages/RSVP';
 import Info from './pages/Info';
+import Registry from './pages/Registry';
 
 export default function App() {
   return (
@@ -24,7 +25,8 @@ var routeMap = {
   "/save-the-date" : <SaveTheDate />,
   "/gallery" : <Gallery />,
   "/rsvp" : <RSVP />,
-  "/info" : <Info />
+  "/info" : <Info />,
+  "/registry" : <Registry />
 }
 
 function createRoutes() {
