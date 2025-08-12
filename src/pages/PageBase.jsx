@@ -14,6 +14,7 @@ const Background = styled.div`
   align-items: center;
   background-color: ${periwinkle};
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   height: calc(100% - 60px);
   justify-content: center;

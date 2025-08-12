@@ -29,6 +29,9 @@ const Images = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow-y: scroll;
+  margin-left: 2rem;
+  margin-right: 2rem;
   width: inherit;
 `;
 
